@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
         String instanceName = "sql.samorodov.su/SALADIN";
         String databaseName = "Northwind";
-        String userName = "Хомяков Тимур Вячеславович";
-        String pass = "Dptikalamer1";
+        String userName = "*****";
+        String pass = "****";
         String connectionUrl = "jdbc:sqlserver://%1$s;databaseName=%2$s;user=%3$s;password=%4$s;";
         String connectionString = String.format(connectionUrl, instanceName, databaseName, userName, pass);
         try {
