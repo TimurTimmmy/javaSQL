@@ -7,8 +7,8 @@ import java.util.logging.Logger;
 public class Main {
 
     public static void main(String[] args) {
-        String instanceName = "sql.samorodov.su/SALADIN";
-        String databaseName = "Northwind";
+        String instanceName = "****";
+        String databaseName = "N***";
         String userName = "*****";
         String pass = "****";
         String connectionUrl = "jdbc:sqlserver://%1$s;databaseName=%2$s;user=%3$s;password=%4$s;";
